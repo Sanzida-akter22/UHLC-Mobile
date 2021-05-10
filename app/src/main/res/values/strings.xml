@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">uhlcapp</string>
+    <string name="enroll">ENROLL</string>
+    <string name="help">HELP</string>
+    <string name="chat_with_us">chat with us</string>
+    <string name="faq">FAQ</string>
+    <string name="about">about</string>
+    <string name="aboutdetail">
+        android version 4.4 \n\n
+        powered by \n\n
+        ulab student\n\n
+        Email:ulab@edu.bd\n\n
+        Permanent Campus\n\n
+        Mohammadpur\n\n
+        Dhaka, Bangladesh
+    </string>
+    <string name="faqmore">
+        Dhanmondi Campus
+House 56, Rd 4/A @ Satmasjid Road
+Dhanmondi, Dhaka-1209, Bangladesh
+Phone: 966-1255, 966-1301, 967-5919
+01730-082197, 01713-091936, 01714-161613
+Fax: 88-02-9660610
+    </string>
+</resources>

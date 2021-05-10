@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enrollmescreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="140dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="140dp"
+    android:orientation="vertical"
+    tools:context=".Enrolment">
+
+  <EditText
+      android:id="@+id/coursenamefield"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:ems="10"
+      android:gravity="center"
+      android:hint="Course Name"
+      android:inputType="textPersonName"
+      android:textColor="#131212"
+      tools:layout_editor_absoluteX="24dp"
+      tools:layout_editor_absoluteY="142dp" />
+
+  <EditText
+      android:id="@+id/keyfield"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:ems="10"
+      android:gravity="center"
+      android:hint="Enrolment key "
+      android:inputType="textPassword"
+      tools:layout_editor_absoluteX="10dp"
+      tools:layout_editor_absoluteY="203dp" />
+
+  <Button
+      android:id="@+id/emrollmebtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:onClick="enoption"
+      android:text="Enroll Me"
+      android:textSize="16sp"
+      app:backgroundTint="#FFC107"
+      tools:layout_editor_absoluteX="17dp"
+      tools:layout_editor_absoluteY="298dp" />
+
+  <TextView
+      android:id="@+id/wrong"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:gravity="center"
+      android:text=""
+      android:textSize="18sp"
+      android:textStyle="bold"
+      tools:layout_editor_absoluteX="23dp"
+      tools:layout_editor_absoluteY="363dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

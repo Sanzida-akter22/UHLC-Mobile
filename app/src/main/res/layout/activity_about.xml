@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aboutscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutActivity">
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:text="UHCL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFC107"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="635dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="95dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aboutdetail"
+            android:textSize="20sp"
+
+            tools:layout_editor_absoluteX="-257dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

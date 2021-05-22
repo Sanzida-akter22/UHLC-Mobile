@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+
+    <item android:id="@+id/menu_class"
+    android:icon="@drawable/ic_baseline_class_24"
+    android:title="Classes"/>
+
+    <item android:id="@+id/menu_Enroll"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="Enroll Class"/>
+
+    <item android:id="@+id/Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item android:id="@+id/menu_Help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Help"/>
+
+
+
+
+
+</menu>

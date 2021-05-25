@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer"
     tools:openDrawer="start"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -20,7 +21,48 @@
             app:titleTextColor="@color/purple_200"
            android:background="@color/black"/>
 
+        <Button
+            android:id="@+id/cse412"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="500dp"
+            android:text="CSE412"
+            android:textSize="64sp"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/Cse101"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="330dp"
+            android:textSize="64sp"
+            android:text="CSE101"
+
+
+
+
+
+            />
+
+
+
+
+
+
+
+
     </RelativeLayout>
+
+
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
@@ -30,7 +72,14 @@
         app:headerLayout="@layout/header"
         android:layout_gravity="start"
 
+
+
+
         />
+
+
+
+
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

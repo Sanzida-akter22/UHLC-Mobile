@@ -1,0 +1,12 @@
+com/example/uhlcapp/BuildConfig.java
+ com.example.uhlcapp.BuildConfig
+com/example/uhlcapp/helpActivity.java
+ com.example.uhlcapp.helpActivity
+com/example/uhlcapp/faqActivity.java
+ com.example.uhlcapp.faqActivity
+com/example/uhlcapp/MainActivity.java
+ com.example.uhlcapp.MainActivity
+com/example/uhlcapp/aboutActivity.java
+ com.example.uhlcapp.aboutActivity
+com/example/uhlcapp/Enrolment.java
+ com.example.uhlcapp.Enrolment

@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -39,6 +41,58 @@ public class MainActivity extends AppCompatActivity {
         nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+
+                int id=item.getItemId();
+
+
+
+                if (id==R.id.menu_profile)
+                {
+
+                    Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(intent);
+
+                    return true;
+                }
+                else if (id==R.id.menu_class)
+
+                {
+                    Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(intent);
+
+
+
+                    return true;
+                }
+
+                else if (id==R.id.menu_Enroll)
+
+                {
+                    Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(intent);
+
+                    return true;
+                }
+
+                else if(id==R.id.menu_Help)
+
+                {
+                    Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(intent);
+
+                    return true;
+                }
+                else if (id==R.id.Settings)
+
+                {
+                    Intent intent = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(intent);
+
+                    return true;
+
+
+                }
 
 
 

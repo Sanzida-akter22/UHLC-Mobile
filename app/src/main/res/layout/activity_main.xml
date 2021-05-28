@@ -29,11 +29,12 @@
             android:layout_marginTop="70dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="500dp"
-            android:text="CSE412"
+            android:text="CSE438"
             android:textSize="64sp"
+            android:onClick="cse412"
 
 
-            />
+            tools:ignore="OnClick" />
 
 
         <Button

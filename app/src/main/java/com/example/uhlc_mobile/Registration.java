@@ -52,3 +52,5 @@ public class Registration extends AppCompatActivity {
         startActivity(Registerscreen);
     }
 }
+
+

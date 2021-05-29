@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             TextView errorLabel = findViewById(R.id.textView);
             errorLabel.setTextColor(Color.GREEN);
-            errorLabel.setText("done");
+            Intent intent = new Intent(MainActivity.this,MainActivity.class);
         }
         else
         {

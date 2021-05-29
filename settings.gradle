@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "new"
+rootProject.name = "UHLC profile"
